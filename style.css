@@ -32,6 +32,7 @@ body {
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    font-size: 20px;
   }
   nav a:hover {
     color: grey;
@@ -98,22 +99,15 @@ body {
 } 
 
 .Sport_cubes img:hover:nth-child(1) {
-    /* Change the image path for the first image when hovering */
     content: url('img/korv2.png');
 }
-
 .Sport_cubes img:hover:nth-child(2) {
-    /* Change the image path for the second image when hovering */
     content: url("img/võrk2.png");
 }
-
 .Sport_cubes img:hover:nth-child(3) {
-    /* Change the image path for the third image when hovering */
     content: url("img/laua2.png");
 }
-
 .Sport_cubes img:hover:nth-child(4) {
-    /* Change the image path for the fourth image when hovering */
     content: url("img/dire2.png");
 }
 @media (max-width: 1450px) {
