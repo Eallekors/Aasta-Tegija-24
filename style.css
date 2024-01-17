@@ -4,3 +4,6 @@
 	margin: 0;
 	padding: 0;
 }
+.Sport_cubes{
+    display: flex;
+}
