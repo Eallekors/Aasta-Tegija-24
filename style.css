@@ -33,8 +33,12 @@
 }
 
 .schedule {
-    max-width: 100%;
-    padding-left: 20px;
+    width: 70vw; /* Set width to 100% of the viewport width */
+    margin-left: auto;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 
 .schedule-content {
@@ -48,8 +52,20 @@
 /* Existing styles */
 .event {
     display: flex;
+    height: 100px;
     flex-direction: column; /* Display time, location, and activity in a column */
-    margin-bottom: 20px;
+    justify-content: center; /* Center vertically */
+    background-color: #f8f9fa;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.event2 {
+    display: flex;
+    height: 100px;
+    flex-direction: column; /* Display time, location, and activity in a column */
+    justify-content: center; /* Center vertically */
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .event-time {
@@ -59,7 +75,6 @@
 .event-details {
     display: flex;
     justify-content: space-between;
-    padding-left: 40px; /* Adjust padding as needed */
 }
 
 .event-location {
