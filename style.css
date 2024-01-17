@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-/* Your existing styles */
+/* event buttons, etc*/
 
 .container {
     display: flex;
@@ -17,19 +17,27 @@
 .date-container {
     display: flex;
     align-items: flex-start;
-}
-
-.date-buttons {
+  }
+  
+  .date-buttons {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
+.date-buttons button:focus {
+    background-color: #00B89D; /* Set the background color for the focused button */
+    outline: none !important;
+}
+
 
 .date-buttons button {
     transform: rotate(-90deg);
     white-space: nowrap;
-    margin-bottom: 50px;
+    margin-bottom: 120px;
+    margin-top: 20px;
     cursor: pointer;
+    font-size: 20px; /* Adjust the font size as needed */
+    padding: 20px 40px; /* Adjust the padding as needed */
 }
 
 .schedule {
@@ -39,22 +47,24 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    overflow-y: auto;
+    
 }
 
 .schedule-content {
     display: none;
-    margin-left: 20px; /* Adjust the margin as needed */
+    margin-left: 20px; 
 }
 
 .show-content .schedule-content {
     display: block;
 }
-/* Existing styles */
+/* Mainly for event background colors */
 .event {
     display: flex;
     height: 100px;
-    flex-direction: column; /* Display time, location, and activity in a column */
-    justify-content: center; /* Center vertically */
+    flex-direction: column; 
+    justify-content: center; 
     background-color: #f8f9fa;
     padding-left: 10px;
     padding-right: 10px;
@@ -62,14 +72,10 @@
 .event2 {
     display: flex;
     height: 100px;
-    flex-direction: column; /* Display time, location, and activity in a column */
-    justify-content: center; /* Center vertically */
+    flex-direction: column; 
+    justify-content: center; 
     padding-left: 10px;
     padding-right: 10px;
-}
-
-.event-time {
-    /* Adjust styling as needed */
 }
 
 .event-details {
@@ -77,14 +83,15 @@
     justify-content: space-between;
 }
 
-.event-location {
-    /* Adjust styling as needed */
-}
 
 .event-activity {
-    flex-grow: 1; /* Activity takes the remaining space */
-    padding-left: 20px; /* Adjust padding as needed */
-    font-weight: bold;
+    flex-grow: 1;
+    padding-left: 20px;
+    font-weight: 600;
     text-align: right;
 }
-
+.date-buttons button,
+.event-details {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
