@@ -79,9 +79,10 @@ body {
 .slide-index {
 	background: #f5f7fa;
 	padding: 2px 20px;
+} 
 /* Sport Cubes*/
+
 .Sport_cubes{
-    
     display: flex;
     padding: 24px 80px;
     gap: 32px;
