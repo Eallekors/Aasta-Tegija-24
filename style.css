@@ -95,3 +95,9 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
+/* Agenda img positioning */
+.agendaimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
