@@ -6,13 +6,12 @@
 }
 .History{
     height: 573px;
-    flex-shrink: 0;
-    background: #F5F7FA;
+    
+    /*background: #F5F7FA;*/
 }  
 .History img{
-color: #000;
-padding-left: 588px;
-padding-top: 55px;
+/*padding-left: 588px;
+padding-top: 55px;*/
 
 }
 
