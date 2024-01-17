@@ -4,3 +4,20 @@
 	margin: 0;
 	padding: 0;
 }
+.History{
+    height: 573px;
+    flex-shrink: 0;
+    background: #F5F7FA;
+}  
+.History h1{
+color: #000;
+padding-left: 588px;
+padding-top: 55px;
+font-family: BLACKHAWK;
+font-size: 96px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+font-family: 'Blackhawk', sans-serif;
+}
+
