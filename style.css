@@ -5,46 +5,7 @@
 	padding: 0;
   
 }
-.Sport_cubes{
-    
-    display: flex;
-    padding: 24px 80px;
-    gap: 32px;
-    justify-content: center; 
-    overflow-x: auto;
-    margin-top:48px;
-    margin-bottom:48px;
-}
-.Sport_cubes img{
-    width: 296px;
-    height: 208px;
-    flex-shrink: 0;
-} 
 
-.Sport_cubes img:hover:nth-child(1) {
-    /* Change the image path for the first image when hovering */
-    content: url('img/korv2.png');
-}
-
-.Sport_cubes img:hover:nth-child(2) {
-    /* Change the image path for the second image when hovering */
-    content: url("img/võrk2.png");
-}
-
-.Sport_cubes img:hover:nth-child(3) {
-    /* Change the image path for the third image when hovering */
-    content: url("img/laua2.png");
-}
-
-.Sport_cubes img:hover:nth-child(4) {
-    /* Change the image path for the fourth image when hovering */
-    content: url("img/dire2.png");
-}
-@media (max-width: 1450px) {
-    .Sport_cubes {
-        justify-content: flex-start; /* Shift to the left when the width is 768px or smaller */
-    }
-}
 /** body **/
 body {
     margin: 0;
@@ -118,6 +79,48 @@ body {
 .slide-index {
 	background: #f5f7fa;
 	padding: 2px 20px;
+/* Sport Cubes*/
+.Sport_cubes{
+    
+    display: flex;
+    padding: 24px 80px;
+    gap: 32px;
+    justify-content: center; 
+    overflow-x: auto;
+    margin-top:48px;
+    margin-bottom:48px;
+}
+.Sport_cubes img{
+    width: 296px;
+    height: 208px;
+    flex-shrink: 0;
+} 
+
+.Sport_cubes img:hover:nth-child(1) {
+    /* Change the image path for the first image when hovering */
+    content: url('img/korv2.png');
+}
+
+.Sport_cubes img:hover:nth-child(2) {
+    /* Change the image path for the second image when hovering */
+    content: url("img/võrk2.png");
+}
+
+.Sport_cubes img:hover:nth-child(3) {
+    /* Change the image path for the third image when hovering */
+    content: url("img/laua2.png");
+}
+
+.Sport_cubes img:hover:nth-child(4) {
+    /* Change the image path for the fourth image when hovering */
+    content: url("img/dire2.png");
+}
+@media (max-width: 1450px) {
+    .Sport_cubes {
+        justify-content: flex-start; /* Shift to the left when the width is 768px or smaller */
+    }
+}
+/* History*/
 } .History{
     height: auto;
     background: #F5F7FA;
