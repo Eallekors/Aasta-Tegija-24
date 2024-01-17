@@ -125,6 +125,9 @@
     padding-bottom: 22px;
     margin-left:24px;
 } 
+.History .mid .mobi{
+    display: none;
+}
 .History img {
     display: block;
     max-width: 282px;
@@ -158,6 +161,40 @@
     color:inherit;
     font-family: Montserrat;
 } 
+@media (max-width: 750px) {
+    .History{
+        height: auto;
+    }
+    .History img {
+        padding: 14px 0 0 0;
+    }
+    .History .mid{
+        flex-direction: column;
+    }
+    .History .mid .desk{
+        display: none;
+    }
+    .History .mid .mobi{
+        display: block;
+        max-width: 100%;
+        margin: 0;
+        padding: 7.55px 19.5px; 
+    }
+    .History .mid .mobi p{
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+    }
+    .History .mid img{
+        margin: 35.45px 0 0 auto;
+        width: 306px;
+        height: 215px; 
+        flex-shrink: 0; 
+        
+    }
+}
+
 .Sponsors{
     height:271px;
     margin-top: 48px;
