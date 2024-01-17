@@ -9,14 +9,28 @@
 
 .Carousel {
 	width: 100%;
+	text-align: center;
+	font-family: 'Montserrat'
 }
 
-.slide {
-	text-align: center;
+.slide img {
+	width: 100%;
+	height: auto;
 	display: block;
+} 
+
+.slide-btn {
+	margin: 10px
 } 
 
 .prev-btn,
 .next-btn {
-	cursor: pointer
+	cursor: pointer;
+	background: #f5f7fa;
+	padding: 2px 5px;
 }
+
+.slide-index {
+	background: #f5f7fa;
+	padding: 2px 20px;
+} 
