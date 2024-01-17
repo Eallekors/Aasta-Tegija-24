@@ -217,20 +217,38 @@
     padding-bottom:27px;
     text-align: center;
 }
-
-
 .title {
     display: block;
     margin: 0 auto;
    
 }
-
 .side {
     display: flex;
     justify-content: center;
     margin-top: 9px;
 }
-
 .side-image {
     margin: 0 36.5px; 
+}
+@media (max-width: 750px) {
+    .Sponsors{
+        height:260px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        padding:0;
+    }
+    .side {
+        flex-direction: column-reverse;
+        margin: 8px 20px 0px 20px;
+    }
+    #Fun {
+        display: block;
+        margin: 0 auto;
+        padding-top:8px;
+    }
+    #united{
+        display: block;
+        margin: 0 auto;
+        padding-top:8px;
+    }
 }
