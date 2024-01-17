@@ -3,9 +3,10 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+  
 }
 .History{
-    height: 603px;
+    height: auto;
     background: #F5F7FA;
 } 
 .History .mid{
@@ -13,7 +14,13 @@
     justify-content: center;
     align-items: flex-start;
 }  
-
+.History .mid img{
+    max-width: 565px;
+    height:auto;
+    padding-top:0; 
+    padding-bottom: 22px;
+    margin-left:24px;
+} 
 .History img {
     display: block;
     max-width: 282px;
@@ -21,13 +28,13 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    padding-top: 55px; 
+    padding-top: 37px; 
     padding-bottom: 20px;
     flex-shrink: 0;
- 
+    margin:0 auto;
 }
 .History p{
-    width: 785px;
+    width: 888px;
     color: var(--Must, #000);
     font-family: Montserrat;
     font-size: 18px;
@@ -35,6 +42,15 @@
     font-weight: 400;
     line-height: normal;
     padding-left:85px;
-    padding-bottom:73px;
-
+    padding-bottom:29px;
+    margin: 0;
+    justify-content: center;;
+    margin:0 auto;
+} 
+.History a{
+    text-decoration: underline;
+    width: 115px;
+    float:right;
+    color:inherit;
+    font-family: Montserrat;
 } 
