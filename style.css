@@ -4,3 +4,27 @@
 	margin: 0;
 	padding: 0;
 }
+
+/* footer */
+
+.Footer {
+	display: flex;
+	color: #fff;
+	background: #000;
+	width: 100%;
+	padding: 30px 70px;
+} 
+
+.footer-contact {
+	width: 50%;
+	float: left;
+} 
+
+.footer-organizers {
+	width: 50%;
+	float: right;
+}
+
+.footer-organizers img {
+	float: right
+} 
