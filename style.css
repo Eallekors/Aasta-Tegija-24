@@ -5,6 +5,7 @@
 	padding: 0;
 }
 .Sport_cubes{
+<<<<<<< HEAD
     margin:  0 64px;
     
 }
@@ -16,3 +17,7 @@
 } 
 
 
+=======
+    display: flex;
+}
+>>>>>>> d13632c (Added Pictures)
