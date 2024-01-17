@@ -5,13 +5,36 @@
 	padding: 0;
 }
 .History{
-    height: 573px;
-    
-    /*background: #F5F7FA;*/
+    height: 603px;
+    background: #F5F7FA;
+} 
+.History .mid{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }  
-.History img{
-/*padding-left: 588px;
-padding-top: 55px;*/
 
+.History img {
+    display: block;
+    max-width: 282px;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 55px; 
+    padding-bottom: 20px;
+    flex-shrink: 0;
+ 
 }
+.History p{
+    width: 785px;
+    color: var(--Must, #000);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left:85px;
+    padding-bottom:73px;
 
+} 
