@@ -90,7 +90,7 @@
     height: 208px;
     flex-shrink: 0;
 } 
-
+@media (min-width: 751px) {
 .Sport_cubes img:hover:nth-child(1) {
     content: url('img/korv2.png');
 }
@@ -103,10 +103,25 @@
 .Sport_cubes img:hover:nth-child(4) {
     content: url("img/dire2.png");
 }
+}
 @media (max-width: 1450px) {
     .Sport_cubes {
         justify-content: flex-start; /* Shift to the left when the width is 768px or smaller */
     }
+}
+@media (max-width: 750px) {
+    .Sport_cubes img:nth-child(1) {
+        content: url('img/Mobask.png');
+    }
+    .Sport_cubes img:nth-child(2) {
+        content: url("img/MoVoll.png");
+    }
+    .Sport_cubes img:nth-child(3) {
+        content: url("img/MoTabl.png");
+    }
+    .Sport_cubes img:nth-child(4) {
+        content: url("img/MoDir.png");
+    }  
 }
 /* History*/
  .History{
