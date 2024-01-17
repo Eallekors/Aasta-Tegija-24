@@ -6,7 +6,6 @@
   
 }
 
-
 /** nav bar **/
   nav {
     background-color: black;
@@ -90,6 +89,7 @@
     height: 208px;
     flex-shrink: 0;
 } 
+
 @media (min-width: 751px) {
 .Sport_cubes img:hover:nth-child(1) {
     content: url('img/korv2.png');
@@ -106,9 +106,10 @@
 }
 @media (max-width: 1450px) {
     .Sport_cubes {
-        justify-content: flex-start; /* Shift to the left when the width is 768px or smaller */
-    }
-}
+        justify-content: flex-start; 
+     }
+} 
+/* Sport Cubes mobile view*/
 @media (max-width: 750px) {
     .Sport_cubes img:nth-child(1) {
         content: url('img/Mobask.png');
@@ -176,6 +177,7 @@
     color:inherit;
     font-family: Montserrat;
 } 
+/*History mobile view*/
 @media (max-width: 750px) {
     .History{
         height: auto;
@@ -230,6 +232,7 @@
 .side-image {
     margin: 0 36.5px; 
 }
+/*Sponsors mobile view*/
 @media (max-width: 750px) {
     .Sponsors{
         height:260px;
