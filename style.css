@@ -11,6 +11,8 @@
     gap: 32px;
     justify-content: center; 
     overflow-x: auto;
+    margin-top:48px;
+    margin-bottom:48px;
 }
 .Sport_cubes img{
     width: 296px;
