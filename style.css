@@ -167,3 +167,27 @@ body {
     color:inherit;
     font-family: Montserrat;
 } 
+.Sponsors{
+    height:271px;
+    margin-top: 48px;
+    margin-bottom:48px;
+    padding-bottom:27px;
+    text-align: center;
+}
+
+
+.title {
+    display: block;
+    margin: 0 auto;
+   
+}
+
+.side {
+    display: flex;
+    justify-content: center;
+    margin-top: 9px;
+}
+
+.side-image {
+    margin: 0 36.5px; 
+}
