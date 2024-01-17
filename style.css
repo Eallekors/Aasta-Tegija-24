@@ -1,6 +1,75 @@
-/*reset browser css*/
+/* Reset browser css */
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+/* Your existing styles */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.date-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.date-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.date-buttons button {
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.schedule {
+    max-width: 100%;
+    padding-left: 20px;
+}
+
+.schedule-content {
+    display: none;
+    margin-left: 20px; /* Adjust the margin as needed */
+}
+
+.show-content .schedule-content {
+    display: block;
+}
+/* Existing styles */
+.event {
+    display: flex;
+    flex-direction: column; /* Display time, location, and activity in a column */
+    margin-bottom: 20px;
+}
+
+.event-time {
+    /* Adjust styling as needed */
+}
+
+.event-details {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px; /* Adjust padding as needed */
+}
+
+.event-location {
+    /* Adjust styling as needed */
+}
+
+.event-activity {
+    flex-grow: 1; /* Activity takes the remaining space */
+    padding-left: 20px; /* Adjust padding as needed */
+    font-weight: bold;
+    text-align: right;
+}
+

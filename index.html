@@ -1,32 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baltic</title>
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-      <div class ="Nav">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="Nav">
+        <!-- Your Nav content goes here -->
+    </div>
+    <div class="Carousel">
+        <!-- Your Carousel content goes here -->
+    </div>
+    <div class="Sport Cubes">
+        <!-- Your Sport Cubes content goes here -->
+    </div>
+    <!-- Agenda -->
+    <div class="container">
+        <div class="date-container">
+            <div class="date-buttons">
+                <button onclick="showContent('day1')">Day 1</button>
+                <button onclick="showContent('day2')">Day 2</button>
+                <button onclick="showContent('day3')">Day 3</button>
+            </div>
+            <div class="schedule">
+                <!-- Day 1 schedule content -->
+<div id="day1-content" class="schedule-content">
+  <div class="event">
+      <div class="event-time">13.00 – 15.00</div>
+      <div class="event-details">
+          <div class="event-location">
+              Tartu VOCO, Kopli 1a, Tartu
+          </div>
+          <div class="event-activity text-right">
+              Arrival of national delegation at the hostel
+          </div>
+      </div>
+  </div>
 
+  <div class="event">
+      <div class="event-time">15.00 – 16.30</div>
+      <div class="event-details">
+          <div class="event-location">
+              Tartu VOCO, Kopli 1, Tartu
+          </div>
+          <div class="event-activity">Lunch</div>
       </div>
-      <div class ="Carousel">
-        
+  </div>
+
+  <div class="event">
+      <div class="event-time">16.00 – 16.30</div>
+      <div class="event-details">
+          <div class="event-location">
+              Tartu VOCO
+          </div>
+          <div class="event-activity">
+              Delegation leaders meeting
+          </div>
       </div>
-      <div class ="Sport Cubes">
-        
+  </div>
+
+  <div class="event">
+      <div class="event-time">18.00 – 19.30</div>
+      <div class="event-details">
+          <div class="event-location">
+              Estonian National Museum, Muuseumi tee 2, Tartu
+          </div>
+          <div class="event-activity">Opening ceremony</div>
       </div>
-      <div class ="Agenda">
-        
-      </div>
-      <div class ="History">
-        
-      </div>
-      <div class ="Sponsors">
-        
-      </div>
-      <div class ="Footer">
-        
-      </div>
-  </body>
+  </div>
+
+  <!-- Repeat the structure for each event in day 1 -->
+</div>
+
+
+
+                <div id="day2-content" class="schedule-content">
+                    <p>Day 2 schedule content</p>
+                </div>
+                <div id="day3-content" class="schedule-content">
+                    <p>Day 3 schedule content</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="History">
+        <!-- Your History content goes here -->
+    </div>
+    <div class="Sponsors">
+        <!-- Your Sponsors content goes here -->
+    </div>
+    <div class="Footer">
+        <!-- Your Footer content goes here -->
+    </div>
+    <script>
+        // Hide all schedule content initially
+        document.querySelectorAll('.schedule-content').forEach(schedule => {
+            schedule.style.display = 'none';
+        });
+
+        function showContent(day) {
+            // Hide all schedules
+            document.querySelectorAll('.schedule-content').forEach(schedule => {
+                schedule.style.display = 'none';
+            });
+
+            // Show the selected schedule
+            document.getElementById(day + '-content').style.display = 'block';
+        }
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</body>
 </html>
