@@ -175,6 +175,109 @@
     float:right;
     color:inherit;
     font-family: Montserrat;
+}
+/* event buttons, etc*/
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.date-container {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .date-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.date-buttons button:focus {
+    background-color: #00B89D; /* Set the background color for the focused button */
+    outline: none !important;
+}
+
+
+.date-buttons button {
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    margin-bottom: 120px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px; /* Adjust the font size as needed */
+    padding: 20px 40px; /* Adjust the padding as needed */
+}
+
+.schedule {
+    width: 70vw; /* Set width to 100% of the viewport width */
+    margin-left: auto;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    
+}
+
+.schedule-content {
+    display: none;
+    margin-left: 20px; 
+}
+
+.show-content .schedule-content {
+    display: block;
+}
+/* Mainly for event background colors */
+.event {
+    display: flex;
+    height: 100px;
+    flex-direction: column; 
+    justify-content: center; 
+    background-color: #f8f9fa;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.event2 {
+    display: flex;
+    height: 100px;
+    flex-direction: column; 
+    justify-content: center; 
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.event-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.event-activity {
+    flex-grow: 1;
+    padding-left: 20px;
+    font-weight: 600;
+    text-align: right;
+}
+.date-buttons button,
+.event-details {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+/* Agenda img positioning */
+.agendaimg {
+    display: block;
+    max-width: 282px;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 37px; 
+    padding-bottom: 20px;
+    flex-shrink: 0;
+    margin:0 auto;
 } 
 @media (max-width: 750px) {
     .History{

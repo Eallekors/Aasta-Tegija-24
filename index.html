@@ -108,7 +108,444 @@
         <img src="img/laua.png" >
         <img src="img/dire.png" >
       </div>
-      <div class ="Agenda" id="agenda">
+       <!-- Agenda -->
+    <img class="agendaimg" id="agenda" src="img/agenda.png"> 
+    <div class="container justify-content-center">
+        <div class="date-container">
+            <div class="date-buttons">
+                <button onclick="showContent('day1')">1st Day<br>
+                    April 25, 2024</button>
+                <button onclick="showContent('day2')">2nd Day<br>
+                    April 26, 2024</button>
+                <button onclick="showContent('day3')">3rd Day<br>
+                    April 27, 2024</button>
+            </div>
+            <div class="schedule">
+                <!-- Day 1 schedule content -->
+  <div id="day1-content" class="schedule-content">
+  <div class="event">
+      <div class="event-time"><i class="fa-solid fa-clock"></i> 13.00 – 15.00</div>
+      <div class="event-details">
+          <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Tartu VOCO, Kopli 1a, Tartu</p>
+          </div>
+          <div class="event-activity text-right">
+            <p>Arrival of national delegation at the hostel
+          </div>
+      </div>
+  </div>
+
+  <div class="event2">
+      <div class="event-time"><i class="fa-solid fa-clock"></i> 15.00 – 16.30</div>
+      <div class="event-details">
+          <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Tartu VOCO, Kopli 1, Tartu</p>
+          </div>
+          <div class="event-activity">Lunch</div>
+      </div>
+  </div>
+
+  <div class="event">
+      <div class="event-time"><i class="fa-solid fa-clock"></i> 16.00 – 16.30</div>
+      <div class="event-details">
+          <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Tartu VOCO</p>
+          </div>
+          <div class="event-activity">
+              Delegation leaders meeting
+          </div>
+      </div>
+  </div>
+
+  <div class="event2">
+      <div class="event-time"><i class="fa-solid fa-clock"></i> 18.00 – 19.30</div>
+      <div class="event-details">
+          <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Estonian National Museum, Muuseumi tee 2, Tartu</p>
+          </div>
+          <div class="event-activity">Opening ceremony</div>
+      </div>
+  </div>
+</div>
+
+<div id="day2-content" class="schedule-content">
+    <!-- Event 1 -->
+    <div class="event">
+        <div class="event-time"><i class="fa-solid fa-clock"></i> 07.30 – 09.00</div>
+        <div class="event-details">
+            <div class="event-location">
+                <p><i class="fa-solid fa-location-dot"></i> Tartu VOCO</p>
+            </div>
+            <div class="event-activity text-right">
+                <p>Breakfast</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Event 2 -->
+    <div class="event2">
+        <div class="event-time"><i class="fa-solid fa-clock"></i> 09.30-11.00</div>
+        <div class="event-details">
+            <div class="event-location">
+                <p><i class="fa-solid fa-location-dot"></i> Tartu VOCO</p>
+            </div>
+            <div class="event-activity">
+                Volleyball EST – LAT (young women)
+            </div>
+        </div>
+    </div>
+
+    <!-- Event 3 -->
+    <div class="event">
+        <div class="event-time"><i class="fa-solid fa-clock"></i> 09.30-11.00</div>
+        <div class="event-details">
+            <div class="event-location">
+                <p><i class="fa-solid fa-location-dot"></i> Tartu VOCO</p>
+            </div>
+            <div class="event-activity">
+                Basketball EST – LAT (young men)
+            </div>
+        </div>
+    </div>
+    <!-- Event 4 -->
+<div class="event2">
+    <div class="event-time"><i class="fa-solid fa-clock"></i> 10.00-16.00</div>
+    <div class="event-details">
+        <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Tartu VOCO</p>
+        </div>
+        <div class="event-activity">
+            Table tennis
+        </div>
+    </div>
+</div>
+
+<!-- Event 5 -->
+<div class="event">
+    <div class="event-time"><i class="fa-solid fa-clock"></i> 11.15-12.45</div>
+    <div class="event-details">
+        <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Variku Sports Hall</p>
+        </div>
+        <div class="event-activity">
+            Volleyball EST - LAT (young men)
+        </div>
+    </div>
+</div>
+
+<!-- Event 6 -->
+<div class="event2">
+    <div class="event-time"><i class="fa-solid fa-clock"></i> 11.15-11.45</div>
+    <div class="event-details">
+        <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Variku Sports Hall</p>
+        </div>
+        <div class="event-activity">
+            3x3 basketball – EST - LAT (young women)
+        </div>
+    </div>
+</div>
+
+<!-- Event 7 -->
+<div class="event">
+    <div class="event-time"><i class="fa-solid fa-clock"></i> 12.00 -12.30</div>
+    <div class="event-details">
+        <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Variku Sports Hall</p>
+        </div>
+        <div class="event-activity">
+            3x3 basketball – EST - LIT (men)
+        </div>
+    </div>
+</div>
+
+<!-- Event 8 -->
+<div class="event2">
+    <div class="event-time"><i class="fa-solid fa-clock"></i> 12.45-13.15</div>
+    <div class="event-details">
+        <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Variku Sports Hall</p>
+        </div>
+        <div class="event-activity">
+            3x3 basketball – EST - LIT (women)
+        </div>
+    </div>
+</div>
+<!-- Event 9 -->
+<div class="event">
+    <div class="event-time"><i class="fa-solid fa-clock"></i> 13.00-15.00</div>
+    <div class="event-details">
+        <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Tartu VOCO</p>
+        </div>
+        <div class="event-activity">
+            Lunch
+        </div>
+    </div>
+</div>
+
+<!-- Event 10 -->
+<div class="event2">
+    <div class="event-time"><i class="fa-solid fa-clock"></i> 13.30 – 14.00</div>
+    <div class="event-details">
+        <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Variku Sports Hall</p>
+        </div>
+        <div class="event-activity">
+            3x3 basketball – EST vs. LIT (young women)
+        </div>
+    </div>
+</div>
+
+<!-- Event 11 -->
+<div class="event">
+    <div class="event-time"><i class="fa-solid fa-clock"></i> 13.30-15.00</div>
+    <div class="event-details">
+        <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Tartu VOCO</p>
+        </div>
+        <div class="event-activity">
+            Headmasters competition
+        </div>
+    </div>
+</div>
+
+<!-- Event 12 -->
+<div class="event2">
+    <div class="event-time"><i class="fa-solid fa-clock"></i> 13.00-14.30</div>
+    <div class="event-details">
+        <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Variku Sports Hall</p>
+        </div>
+        <div class="event-activity">
+            Volleyball – EST vs. LIT (young women)
+        </div>
+    </div>
+</div>
+
+<!-- Event 13 -->
+<div class="event">
+    <div class="event-time"><i class="fa-solid fa-clock"></i> 14.30-16.00</div>
+    <div class="event-details">
+        <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Variku Sports Hall</p>
+        </div>
+        <div class="event-activity">
+            Basketball – EST vs. LIT (young men)
+        </div>
+    </div>
+</div>
+
+<!-- Event 14 -->
+<div class="event2">
+    <div class="event-time"><i class="fa-solid fa-clock"></i> 14.45-16.15</div>
+    <div class="event-details">
+        <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Variku Sports Hall</p>
+        </div>
+        <div class="event-activity">
+            Volleyball – EST vs. LIT (young men)
+        </div>
+    </div>
+</div>
+
+<!-- Event 15 -->
+<div class="event">
+    <div class="event-time"><i class="fa-solid fa-clock"></i> 16.15-16.45</div>
+    <div class="event-details">
+        <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Variku Sports Hall</p>
+        </div>
+        <div class="event-activity">
+            3x3 basketball – EST vs. LAT (women)
+        </div>
+    </div>
+</div>
+
+<!-- Event 16 -->
+<div class="event2">
+    <div class="event-time"><i class="fa-solid fa-clock"></i> 17.00-17.30</div>
+    <div class="event-details">
+        <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Variku Sports Hall</p>
+        </div>
+        <div class="event-activity">
+            3x3 basketball – EST vs. LAT (men)
+        </div>
+    </div>
+</div>
+<!-- Event 17 -->
+<div class="event">
+    <div class="event-time"><i class="fa-solid fa-clock"></i> 17.00-18.30</div>
+    <div class="event-details">
+        <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Tartu VOCO</p>
+        </div>
+        <div class="event-activity">
+            Dinner
+        </div>
+    </div>
+</div>
+
+<!-- Event 18 -->
+<div class="event2">
+    <div class="event-time"><i class="fa-solid fa-clock"></i> 19.00-23.00</div>
+    <div class="event-details">
+        <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Tartu VOCO</p>
+        </div>
+        <div class="event-activity">
+            Socialization evening for employees, invited guests, and staff
+        </div>
+    </div>
+</div>
+
+<!-- Event 19 -->
+<div class="event">
+    <div class="event-time"><i class="fa-solid fa-clock"></i> 20.00</div>
+    <div class="event-details">
+        <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Tartu VOCO</p>
+        </div>
+        <div class="event-activity">
+            Awarding ceremony in headmasters competition
+        </div>
+    </div>
+</div>
+</div>
+    <div id="day3-content" class="schedule-content">
+        <!-- Event 1 -->
+<div class="event">
+    <div class="event-time"><i class="fa-solid fa-clock"></i> 07.30 – 09.00</div>
+    <div class="event-details">
+        <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Tartu Vocational College</p>
+        </div>
+        <div class="event-activity">
+            Breakfast
+        </div>
+    </div>
+</div>
+
+<!-- Event 2 -->
+<div class="event2">
+    <div class="event-time"><i class="fa-solid fa-clock"></i> 09.00-10.30</div>
+    <div class="event-details">
+        <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Variku Sports Hall</p>
+        </div>
+        <div class="event-activity">
+            Volleyball LIT – LAT (young women)
+        </div>
+    </div>
+</div>
+
+<!-- Event 3 -->
+<div class="event">
+    <div class="event-time"><i class="fa-solid fa-clock"></i> 09.00-10.30</div>
+    <div class="event-details">
+        <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Variku Sports Hall</p>
+        </div>
+        <div class="event-activity">
+            Basketball LIT – LAT (young men)
+        </div>
+    </div>
+</div>
+
+<!-- Event 4 -->
+<div class="event2">
+    <div class="event-time"><i class="fa-solid fa-clock"></i> 10.45-12.15</div>
+    <div class="event-details">
+        <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Variku Sports Hall</p>
+        </div>
+        <div class="event-activity">
+            Volleyball LIT – LAT (young men)
+        </div>
+    </div>
+</div>
+
+<!-- Event 5 -->
+<div class="event">
+    <div class="event-time"><i class="fa-solid fa-clock"></i> 10.45-11.15</div>
+    <div class="event-details">
+        <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Variku Sports Hall</p>
+        </div>
+        <div class="event-activity">
+            3x3 basketball LAT-LIT (young women)
+        </div>
+    </div>
+</div>
+
+<!-- Event 6 -->
+<div class="event2">
+    <div class="event-time"><i class="fa-solid fa-clock"></i> 11.30-12.00</div>
+    <div class="event-details">
+        <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Variku Sports Hall</p>
+        </div>
+        <div class="event-activity">
+            3x3 basketball LIT – LAT (women)
+        </div>
+    </div>
+</div>
+
+<!-- Event 7 -->
+<div class="event">
+    <div class="event-time"><i class="fa-solid fa-clock"></i> 12.15-12.45</div>
+    <div class="event-details">
+        <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Variku Sports Hall</p>
+        </div>
+        <div class="event-activity">
+            3x3 basketball LIT – LAT (men)
+        </div>
+    </div>
+</div>
+
+<!-- Event 8 -->
+<div class="event2">
+    <div class="event-time"><i class="fa-solid fa-clock"></i> 12.30-14.00</div>
+    <div class="event-details">
+        <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Tartu VOCO</p>
+        </div>
+        <div class="event-activity">
+            Lunch
+        </div>
+    </div>
+</div>
+
+<!-- Event 9 -->
+<div class="event">
+    <div class="event-time"><i class="fa-solid fa-clock"></i> 14.00</div>
+    <div class="event-details">
+        <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Tartu VOCO</p>
+        </div>
+        <div class="event-activity">
+            Meeting of the heads of delegation – confirmation of the results.
+        </div>
+    </div>
+</div>
+
+<!-- Event 10 -->
+<div class="event2">
+    <div class="event-time"><i class="fa-solid fa-clock"></i> 14.30</div>
+    <div class="event-details">
+        <div class="event-location">
+            <p><i class="fa-solid fa-location-dot"></i> Tartu VOCO</p>
+        </div>
+        <div class="event-activity">
+            Closing and awarding ceremony
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
         
       </div>
       <div class ="History" id="history">
@@ -136,6 +573,37 @@
       <div class ="Footer" id="footer">
         
       </div>
+      <script>
+        // Adjust the maximum height dynamically when the page is loaded
+        window.addEventListener('DOMContentLoaded', function () {
+            adjustScheduleHeight();
+        });
+    
+        // Adjust the maximum height when the window is resized
+        window.addEventListener('resize', function () {
+            adjustScheduleHeight();
+        });
+    
+        function adjustScheduleHeight() {
+            // Get the height of the date-container
+            var dateContainerHeight = document.querySelector('.date-container').clientHeight;
+    
+            // Set the maximum height of the schedule container
+            document.querySelector('.schedule').style.maxHeight = dateContainerHeight + 'px';
+        }
+        function showContent(day) {
+            // Hide all schedules
+            document.querySelectorAll('.schedule-content').forEach(schedule => {
+                schedule.style.display = 'none';
+            });
+    
+            // Show the selected schedule
+            document.getElementById(day + '-content').style.display = 'block';
+    
+            // Adjust the schedule container height after showing the content
+            adjustScheduleHeight();
+        }
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
