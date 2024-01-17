@@ -5,5 +5,14 @@
 	padding: 0;
 }
 .Sport_cubes{
-    display: flex;
+    margin:  0 64px;
+    
 }
+.Sport_cubes img{
+    padding: 24px 16px;
+    /*display: inline;
+    vertical-align: top;
+    float: none;  */
+} 
+
+
