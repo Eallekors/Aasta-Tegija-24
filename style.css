@@ -7,6 +7,16 @@
 
 /* Carousel */
 
+.Carousel {
+	width: 100%;
+}
+
 .slide {
-	width: 100%
+	text-align: center;
+	display: block;
 } 
+
+.prev-btn,
+.next-btn {
+	cursor: pointer
+}
