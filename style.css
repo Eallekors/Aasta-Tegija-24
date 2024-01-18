@@ -61,7 +61,13 @@
     } 
     .navbar-brand{
         margin: 0;
-    } 
+    }
+    nav a {
+        margin-left: 20px;
+    }
+    .navbar-toggler {
+        margin-right: 20px;
+    }  
   } 
 
 /* Carousel */
@@ -218,7 +224,7 @@
     align-items: flex-start;
 }
 .date-buttons button:focus {
-    background-color: #00B89D; /* Set the background color for the focused button */
+    background-color: #00B89D;
     outline: none !important;
 }
 
@@ -229,12 +235,12 @@
     margin-bottom: 120px;
     margin-top: 20px;
     cursor: pointer;
-    font-size: 20px; /* Adjust the font size as needed */
-    padding: 20px 40px; /* Adjust the padding as needed */
+    font-size: 20px; 
+    padding: 20px 40px; 
 }
 
 .schedule {
-    width: 70vw; /* Set width to 100% of the viewport width */
+    width: 70vw; 
     margin-left: auto;
     padding: 0;
     box-sizing: border-box;
