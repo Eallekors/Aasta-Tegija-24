@@ -27,9 +27,8 @@
     font-size: 20px;
   }
   nav a:hover {
-    color: white;
-    text-decoration: underline;
-    text-decoration-color: gray;
+    color: grey;
+    text-decoration: none;
   }    
   
   nav .logo {
@@ -52,7 +51,7 @@
         
     } 
     nav img{
-        max-height: 54px;
+        max-height: 90px;
         margin: 0;
         padding-top: 0;
     } 
@@ -67,7 +66,7 @@
     }
     .navbar-toggler {
         margin-right: 20px;
-    }  
+    } 
   } 
 
 /* Carousel */
