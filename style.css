@@ -27,7 +27,9 @@
     font-size: 20px;
   }
   nav a:hover {
-    color: grey;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: gray;
   }    
   
   nav .logo {
