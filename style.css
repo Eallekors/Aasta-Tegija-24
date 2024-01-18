@@ -522,6 +522,34 @@
 .organizer-logos img {
 	margin: 20px ;
 } 
+@media (max-width: 767px) {
+    .Footer{
+        flex-direction: column-reverse;
+        height: auto;
+    } 
+    .footer-contact{
+        width: 100%;
+    } 
+    .footer-organizers img {
+        float:none;
+    } 
+    .footer-contact img{
+        float:none;
+       margin-left: 10px;
+    } 
+    .footer-contact table tr{
+        display: inline-flex;
+        flex-direction: column;
+    } 
+    .organizer-logos {
+        float: none;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 85px;
+    } 
+} 
 /* mobile design for agenda content */
 @media (max-width: 767px) {
     .container {
