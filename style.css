@@ -556,4 +556,41 @@
         width: 100%; 
         margin: auto; 
     }
-} 
+}
+/* mobile design for agenda content */
+@media (max-width: 767px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .date-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .date-buttons {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .date-buttons button {
+        font-size: 16px;
+        padding: 10px 20px; 
+        width: auto;
+        margin-bottom: 10px;
+        transform: none;
+    }
+    .schedule-content {
+        overflow-y: auto;
+        max-height: 800px;
+    }
+
+    .schedule {
+        width: 100%; 
+        margin: auto; 
+    }
+}  
