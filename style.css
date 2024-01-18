@@ -43,6 +43,24 @@
   section {
     margin: 20px;
   }
+  /*NAv mobile view*/
+  @media (max-width: 750px) {
+    nav{
+        height:auto;
+        
+    } 
+    nav img{
+        max-height: 54px;
+        margin: 0;
+        padding-top: 0;
+    } 
+    .navbar{
+        padding-top: 0;
+    } 
+    .navbar-brand{
+        margin: 0;
+    } 
+  } 
 
 /* Carousel */
 
